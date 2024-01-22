@@ -1,0 +1,39 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+
+
+  :root{
+    --green: rgba(255, 255, 255, 1)
+    
+
+
+
+  }
+
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  button{
+
+    all: unset;
+    padding:6px 16px;
+    background-color: green;
+    height: 32px;
+    color: white;
+
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    max: width 1280px ;
+    margin: auto;
+    height: 72px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 24px
+    
+  }
